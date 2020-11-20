@@ -1,0 +1,90 @@
+/* PARENT */
+.fake-container{
+    padding: 0 5%;
+}
+
+/* NAVBAR */
+.upper-nav{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.navigation{
+    top: 0;
+    width: 100%;
+    background-color: transparent !important;
+}
+.nav-color{
+    background-color: transparent;
+}
+.navbar-brand{
+    font-weight: 550;
+}
+.nav-link{
+    color: black !important;
+    display: block;
+    font-weight: 500;
+    padding: 8px;
+}
+.nav-text{
+    font-size: large;
+    font-weight: 400;
+}
+
+.search{
+    background-color: transparent;
+    color: #000;
+    font-weight: 200;
+    /* border: px 0px 2px 0px !important; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px;
+    
+}
+
+/* COVER */
+
+.cover{
+    padding: 150px 0;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-1{
+    background: url("cover-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-2{
+    background: url("cover-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-3{
+    background: url("cover-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-content{
+    display: block;
+    font-size: 22px;
+    font-weight: 350;
+    letter-spacing: 2px;
+}
+.cover-header{
+    color: #111;
+    font-size: 70px;
+    font-weight: 600;
+}
+.cover-article{
+    font-weight: 500;
+}
+.cover-button{
+    /* background-color: black; */
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+}
+/* utility */
+
