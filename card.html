@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <div class="card position-relative" style="width: 18rem;">
+        <div class="product-image" style="background-image: url('product-image.jpg');">
+          <div class="sale text-right text-white position-absolute">SALE</div>
+        </div>
+        <div class="card-body">
+          <p class="card-text text-center">Slim striped pocket shirt</p>
+          <div class="star-group text-center text-warning">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="text-center">
+            <span class="pr-1 text-danger">$49.0</span>
+            <span class="text-muted" style="text-decoration: line-through;">$59.0</span> 
+          </div>
+        </div>
+        <div class="product-icon position-absolute text-center">
+          <ul class="list-group-horizontal-sm p-0">
+            <li class="d-inline"><i class="fa fa fa-arrows icon-utility" aria-hidden="true"></i></li>
+            <li class="d-inline"><i class="fa fa-heart-o icon-utility" aria-hidden="true"></i></li>
+            <li class="d-inline"><i class="fa fa-shopping-bag icon-utility" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+  $(".card")
+  .mouseover(function() {
+      $(".product-icon").fadeIn(100).css({
+        "bottom": "150px",
+      });
+    })
+  .mouseleave(function() {
+    $(".product-icon").fadeOut(200).css({
+      "bottom": "90px",
+    });
+  })
+</script>
+</body>
+</html>
