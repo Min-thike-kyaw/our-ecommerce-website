@@ -88,3 +88,35 @@
 }
 /* utility */
 
+/* CARD */
+.sale{
+    top: 5px;
+    right: 5px;
+    padding: 2px 4px;
+    background-color: red;
+    padding-right: 5px;
+}
+.product-image{
+    background-size: cover;
+    padding-top: 100%;
+}
+.product-icon{
+    display: none;
+    bottom: 90px;
+    width: 100%;
+    padding-left: 0;
+    transition: 0.6s;
+}
+.icon-utility{
+    padding: 12px;
+    margin: 0 9px;
+    border: 2px black !important;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.4s;
+}
+.icon-utility:hover{
+    color: white;
+    transform: rotate(360deg);
+    background-color: red;
+}
