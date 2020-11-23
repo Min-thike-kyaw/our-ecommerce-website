@@ -86,7 +86,44 @@
     letter-spacing: 2px;
     padding: 5px 10px;
 }
-/* utility */
+
+/* Footer */
+.footer{
+    background-color: #333;
+    color: #ddd;
+}
+.input-email{
+    color: #ddd;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 60%;
+    height: 35px;
+    background-color: #444;
+    border: 3px #ddd;
+    border-radius: 4px;
+}
+.input-text{
+    color: #ddd;
+    font-weight: 500;
+    background-color: #444;
+    border: 3px #ddd;
+}
+.suggest-submit{
+    color: white;
+    padding: 6px 8px;
+    border: 4px white;
+    background-color: rgb(38, 198, 206);
+}
+.icon-item{
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px #ddd;
+    background-color: #444;
+    transition: 1s ease-in;
+}
+.icon-item:hover{
+    background-color: #117a8b;
+}
 
 /* CARD */
 .sale{
