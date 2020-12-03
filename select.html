@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
 </head>
+<style>
+    .select2-container {
+        width: 100% !important;
+        
+    }
+    .select2-selection__choice{
+        background-color: rgb(20, 213, 235) !important;
+        color: white;
+        font-weight: 450;
+    }
+</style>
 <body>
+    <h1 class="css">Hello</h1>
     <div class="container mt-5">
         <select class="js-example-basic-multiple form-control" name="states[]" multiple="multiple">
             <option value="shirt">Shirt</option>
@@ -26,8 +38,8 @@
         maximumSelectionLength: 3,
         placeholder: 'Choose a product',
         allowClear: true,
-        tags: false 
-    });
+        tags: false,
+    })
 });
 </script>
 </body>
